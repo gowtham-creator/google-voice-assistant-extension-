@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Website Opener",
+  "version": "1.0",
+  "description": "An extension to open a particular website using an iframe.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "web_accessible_resources": ["popup.html"]
+}
